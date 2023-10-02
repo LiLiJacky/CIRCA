@@ -7,7 +7,7 @@ from typing import Tuple
 
 import numpy as np
 from tigramite import data_processing
-from tigramite.independence_tests import ParCorr
+from tigramite.independence_tests.parcorr import ParCorr
 from tigramite.independence_tests.independence_tests_base import CondIndTest
 from tigramite.pcmci import PCMCI
 
