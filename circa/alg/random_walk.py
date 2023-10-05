@@ -123,7 +123,7 @@ class SecondOrderRandomWalkScorer(RandomWalkScorer):
 
             candidates: List[Node] = []
             weights: List[float] = []
-            for key, value in matrix[node].iteritems():
+            for key, value in matrix[node].items():
                 if value > 0:
                     candidates.append(key)
                     weights.append((1 - self._beta) * prob_pre + self._beta * value)
